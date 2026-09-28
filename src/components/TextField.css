@@ -1,0 +1,22 @@
+.text-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  text-align: left;
+}
+
+.text-field .react-aria-Label { font-size: 0.875rem; font-weight: 500; }
+
+.text-field .react-aria-Input {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.text-field .react-aria-Input[data-focused] { border-color: #0071e3; box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.25); }
+.text-field .react-aria-Input[data-invalid] { border-color: #d70015; }
+
+.text-field [slot="description"] { font-size: 0.8125rem; color: #6e6e73; }
+.text-field .react-aria-FieldError { font-size: 0.8125rem; color: #d70015; }
