@@ -1,0 +1,12 @@
+main { text-align: center; padding: 2rem; }
+h1 { font-size: 3rem; margin: 0 0 1.5rem; }
+
+.email-form {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.email-form .text-field { min-width: 260px; }
